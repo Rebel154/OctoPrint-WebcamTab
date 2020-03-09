@@ -7,4 +7,4 @@ This OctoPrint plugin moves the webcam stream from the controls into its own tab
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/malnvenshorn/OctoPrint-WebcamTab/archive/master.zip
+    https://github.com/Rebel154/OctoPrint-WebcamTab/archive/master.zip
