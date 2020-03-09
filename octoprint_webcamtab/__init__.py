@@ -1,12 +1,7 @@
 # coding=utf-8
 from __future__ import absolute_import
 
-__author__ = "Sven Lohrmann <malnvenshorn@gmail.com>"
-__license__ = "GNU Affero General Public License http://www.gnu.org/licenses/agpl.html"
-__copyright__ = "Copyright (C) 2017 Sven Lohrmann - Released under terms of the AGPLv3 License"
-
 import octoprint.plugin
-
 
 class WebcamTabPlugin(octoprint.plugin.AssetPlugin,
                       octoprint.plugin.TemplatePlugin):
@@ -46,7 +41,10 @@ class WebcamTabPlugin(octoprint.plugin.AssetPlugin,
 
 
 __plugin_name__ = "Webcam Tab"
-
+__author__ = "Sven Lohrmann <malnvenshorn@gmail.com>"
+__license__ = "GNU Affero General Public License http://www.gnu.org/licenses/agpl.html"
+__copyright__ = "Copyright (C) 2017 Sven Lohrmann - Released under terms of the AGPLv3 License"
+__plugin_pythoncompat__ = ">=2.7,<4"
 
 def __plugin_load__():
     global __plugin_implementation__
